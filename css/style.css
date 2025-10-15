@@ -1100,6 +1100,32 @@ a:hover, button:hover {
     top: 0;
   }
 
+    .welcome__img-wrapper::after {
+        content: "45%";
+        white-space: pre-wrap;
+        position: absolute;
+        top: -40px;
+        left: 131px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        width: 150px;
+        height: 150px;
+        font-weight: 500;
+        font-size: 40px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        transform: translate(-50%, -50%);
+        background-image: url(../images/icons/Star2.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        animation: moveCup 1.5s infinite alternate
+        ease-in-out;
+    }
+
   .contacts__img-wrapper::after {
     transform: rotate(33deg);
     bottom: -240px;
@@ -1182,6 +1208,30 @@ a:hover, button:hover {
     body {
     font-size: 14px;
   }
+
+    .history__img-wrapper::after {
+        content: "we\Ahave";
+        white-space: pre-wrap;
+        position: absolute;
+        top: 31px;
+        left: 317px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        width: 150px;
+        height: 150px;
+        font-weight: 500;
+        font-size: 27px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        transform: translate(-50%, -50%);
+        background-image: url(../images/icons/star.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
   .header {
     padding: 35px 0;
